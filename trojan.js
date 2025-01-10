@@ -49,8 +49,13 @@ function TrojanSNI() {
     document.getElementById('details').innerHTML = `
         <textarea id="resultTextarea" style="width: 100%; height: 200px; padding: 5px;">${outputText}</textarea>
         <button onclick="copyResults()">Copy All</button>
+        <div id="adContainer"></div>
     `;
+    
+    // Memanggil fungsi untuk menampilkan iklan
+    showAds();
 }
+
 function TrojanCDN() {
     const { protocol, id, add, port, sni, type, host, path } = currentAccountConfig;
     const inputBug2 = document.getElementById('inputBug2').value;
