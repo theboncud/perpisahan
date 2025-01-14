@@ -3,7 +3,7 @@ function functionTrojan(config) {
     if (config.type === 'ws') {
         //iklan
         buttonHtml += `<a href="https://www.idwrt.com" style="display: block; text-align: center;">
-            <img src="https://cdn.jsdelivr.net/gh/theboncud/perpisahan@ddb777f973440cc07bf4fb2491a797ebc07c26ec/IDWRT.png" alt="Banner Iklan" style="width: 100%; height: 90px;">
+            <img src="https://cdn.jsdelivr.net/gh/theboncud/perpisahan@main/IDWRT.png" alt="Banner Iklan" style="width: 100%; height: 90px;">
         </a>`;
     
         buttonHtml += `<button id="trojanbuttonws" onclick="trojanws()">Trojan WS</button>`;
